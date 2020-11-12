@@ -101,7 +101,7 @@ export const Question = ({
           >
             {answers.map((ans, indx) => (
               <Button
-                disable={selectedAnser}
+                disabled={selectedAnser}
                 className={classes.questionItems}
                 key={indx}
                 value={ans}
